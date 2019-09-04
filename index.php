@@ -16,13 +16,13 @@
   <a class="btn btn-primary" href="principal.php" role="button">principal</a>
    <center> <h1>corapis</h1>
 
-   <img src="ham.jpg" alt="20" class="img-thumbnail">
-  <p>
+   <img src="ham.jpg" alt="20" class="img-thumbnail"></center>
+   <center> <p>
   con jugosa carne de res molida, preparada a la parrilla, 
   cubierta por una lonjsa de queso fundido y vegetales sobre una arepa que le da el toque único Libardog
-  </p>
+  </p></center>
 
-   </center>
+   
 
 
 

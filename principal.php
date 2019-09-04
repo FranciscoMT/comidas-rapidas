@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>Hello, world!</title>
+
   </head>
   <body>      
    </div>
@@ -19,7 +20,7 @@
     <a class="nav-link active" href="principal.php">principal</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="pedidos.php">pedidos</a>
+    <a class="nav-link" href="#">pedidos</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#">sugerencias</a>
@@ -30,7 +31,6 @@
     <h1>corapis</h1>
       
   </div>
-   
 <br>
     <div class="card" style="width: 18rem;">
   <img src="hamburgesa.jpg" class="card-img-top" alt="100">
@@ -38,7 +38,7 @@
     <h5 class="card-title">hamburgesa</h5>
     <p class="card-text"> con jugosa carne de res molida, preparada a la parrilla, 
   cubierta por una lonjsa de queso fundido y vegetales sobre una arepa que le da el toque único Libardog</p>
-    <a href="index.php" class="btn btn-primary">hamburgesa</a>
+    <a href="pedidos.php" class="btn btn-primary">ordenar</a>
   </div>
 </div>
 
@@ -46,12 +46,12 @@
 
 <br>
 <div class="card" style="width: 18rem;">
-  <img src="caliente.jpg" class="card-img-top" alt="100">
+  <img src="caliente.jpg" class="card-img-top" alt="300">
   <div class="card-body">
     <h5 class="card-title">perros</h5>
     <p class="card-text">20 años de tradición se condensan en los deliciosos perros calientes,
  elaborados con pan artesanal , una jugosa salchicha al vapor y queso fundido. Disfrute de nuestra receta tradicional o prepárelo a su gusto.</p>
-    <a href="perros.php" class="btn btn-primary">perros</a>
+    <a href="pedidos.php" class="btn btn-primary">ordenar</a>
   </div>
 </div>
 
@@ -62,7 +62,7 @@
   <div class="card-body">
     <h5 class="card-title">pinchos</h5>
     <p class="card-text"> Los mejores sabores Libardog unidos en deliciosos cubos de lomo de res, pollo, salchicha o jugoso chorizo a la plancha.</p>
-    <a href="pinchos.php" class="btn btn-primary">pinchos</a>
+    <a href="pedidos.php" class="btn btn-primary">ordenar</a>
   </div>
 </div>
 

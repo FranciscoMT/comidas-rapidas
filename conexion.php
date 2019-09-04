@@ -1,13 +1,16 @@
 <?php
 
+function conectar(){
+    $host="localhost";
+    $user="root";
+    $contra="";
+    $db="comidasrapidas";
 
-    $usuario= $_POST['email'];
-    $contrasena= $_POST['pass'];
+    $con=mysqli_connect($host,$user,$contra) or die("error".mysql_error());
+    mysqli_select_db($con,$db);
 
-
-echo "su usuario es  $usuario
-     su contraseña es contraseña $contrasena";
-
-
+    return $con;
+         
+}
 
 ?>

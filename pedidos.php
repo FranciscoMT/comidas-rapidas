@@ -16,14 +16,14 @@
     <a class="nav-link active" href="principal.php">principal</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="pedidos.php">pedidos</a>
+    <a class="nav-link" href="#">pedidos</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#">sugerencias</a>
   </li>
   
 </ul>
-    <h1>pedidos</h1>
+    <h1><center>pedidos</center></h1>
 
 
     <div class="row">
@@ -31,19 +31,22 @@
         <div class="col-12- col-md-4 col-log-4">
         <form action="conexion.php" method="post">
   <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
+
+  
     <input type="text" class="form-control"
-           name="email "      
+           name="email"      
     id="exampleInputEmail1" aria-describedby="emailHelp" 
     placeholder="ingrese email">
    
   </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  <div class="form-group">  
+    <input type="text" class="form-control"
+           name="pass"
+     id="exampleInputPassword1"
+      placeholder="Password">
   </div>
    
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary">enviar</button>
 </form>
         </div>
         <div class="col-12- col-md-4 col-log-4"></div>
